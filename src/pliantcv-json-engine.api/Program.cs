@@ -1,12 +1,15 @@
-﻿using System;
+//SDK
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+
+//Packages
+using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Hosting;
 
 namespace pliantcv_json_engine.api
 {
@@ -19,6 +22,6 @@ namespace pliantcv_json_engine.api
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+                   .UseStartup<Startup>();
     }
 }
