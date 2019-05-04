@@ -10,3 +10,6 @@ Single-Page HTML (possibly ReactJS enabled - image carousels, video biographies 
 
 ## JSON Validation
 We use an open standard [resume-schema v1.0.0](https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json) to validate submitted json.
+
+## Tests
+Run `dotnet test tests/**`
