@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ReddragonLR/pliantcv-json-engine.svg?branch=master)](https://travis-ci.org/ReddragonLR/pliantcv-json-engine)
+
 # pliantcv-json-engine
 Converts Json to single-page, web-ready CV
 
